@@ -1,231 +1,235 @@
 {
-    "date": "2020\/6\/2 18:45",
+    "date": "2020/6/2 18:45",
     "data": [
- 
         {
             "date": "2020-04-22",
             "mask": 100,
-            "no_mask" : 11
+            "no_mask": 11
         },
         {
             "date": "2020-04-23",
             "mask": 188,
-            "no_mask" : 36
+            "no_mask": 36
         },
         {
             "date": "2020-04-24",
             "mask": 165,
-            "no_mask" : 19
+            "no_mask": 19
         },
         {
             "date": "2020-04-25",
             "mask": 578,
-            "no_mask" : 59
+            "no_mask": 59
         },
         {
             "date": "2020-04-26",
             "mask": 567,
-            "no_mask" : 89
+            "no_mask": 89
         },
         {
             "date": "2020-04-27",
             "mask": 356,
-            "no_mask" : 33
+            "no_mask": 33
         },
         {
             "date": "2020-04-28",
             "mask": 319,
-            "no_mask" : 38
+            "no_mask": 38
         },
         {
             "date": "2020-04-29",
             "mask": 441,
-            "no_mask" : 65
+            "no_mask": 65
         },
         {
             "date": "2020-04-30",
             "mask": 296,
-            "no_mask" : 34
+            "no_mask": 34
         },
         {
             "date": "2020-05-01",
             "mask": 349,
-            "no_mask" : 43
+            "no_mask": 43
         },
         {
             "date": "2020-05-02",
             "mask": 744,
-            "no_mask" : 155
+            "no_mask": 155
         },
         {
             "date": "2020-05-03",
             "mask": 649,
-            "no_mask" : 132
+            "no_mask": 132
         },
         {
             "date": "2020-05-04",
             "mask": 501,
-            "no_mask" : 115
+            "no_mask": 115
         },
         {
             "date": "2020-05-05",
             "mask": 714,
-            "no_mask" : 124
+            "no_mask": 124
         },
         {
             "date": "2020-05-06",
             "mask": 386,
-            "no_mask" : 68
+            "no_mask": 68
         },
         {
             "date": "2020-05-07",
             "mask": 416,
-            "no_mask" : 42
+            "no_mask": 42
         },
         {
             "date": "2020-05-08",
             "mask": 475,
-            "no_mask" : 33
+            "no_mask": 33
         },
         {
             "date": "2020-05-09",
             "mask": 425,
-            "no_mask" : 43
+            "no_mask": 43
         },
         {
             "date": "2020-05-10",
             "mask": 458,
-            "no_mask" : 66
+            "no_mask": 66
         },
         {
             "date": "2020-05-11",
             "mask": 127,
-            "no_mask" : 12
+            "no_mask": 12
         },
         {
             "date": "2020-05-12",
             "mask": 347,
-            "no_mask" : 50
+            "no_mask": 50
         },
         {
             "date": "2020-05-13",
             "mask": 452,
-            "no_mask" : 56
+            "no_mask": 56
         },
         {
             "date": "2020-05-14",
             "mask": 337,
-            "no_mask" : 29
+            "no_mask": 29
         },
         {
             "date": "2020-05-15",
             "mask": 212,
-            "no_mask" : 29
+            "no_mask": 29
         },
         {
             "date": "2020-05-16",
             "mask": 1111,
-            "no_mask" : 129
+            "no_mask": 129
         },
         {
             "date": "2020-05-17",
             "mask": 298,
-            "no_mask" : 67
+            "no_mask": 67
         },
         {
             "date": "2020-05-18",
             "mask": 267,
-            "no_mask" : 30
+            "no_mask": 30
         },
         {
             "date": "2020-05-19",
             "mask": 168,
-            "no_mask" : 24
+            "no_mask": 24
         },
         {
             "date": "2020-05-20",
             "mask": 601,
-            "no_mask" : 49
+            "no_mask": 49
         },
         {
             "date": "2020-05-21",
             "mask": 110,
-            "no_mask" : 8
+            "no_mask": 8
         },
         {
             "date": "2020-05-22",
             "mask": 191,
-            "no_mask" : 19
+            "no_mask": 19
         },
         {
             "date": "2020-05-23",
             "mask": 393,
-            "no_mask" : 67
+            "no_mask": 67
         },
         {
             "date": "2020-05-24",
             "mask": 428,
-            "no_mask" : 68
+            "no_mask": 68
         },
         {
             "date": "2020-05-25",
             "mask": 366,
-            "no_mask" : 26
+            "no_mask": 26
         },
         {
             "date": "2020-05-26",
             "mask": 142,
-            "no_mask" : 21
+            "no_mask": 21
         },
         {
             "date": "2020-05-27",
             "mask": 354,
-            "no_mask" : 37
+            "no_mask": 37
         },
         {
             "date": "2020-05-28",
             "mask": 405,
-            "no_mask" : 44
+            "no_mask": 44
         },
         {
             "date": "2020-05-29",
             "mask": 176,
-            "no_mask" : 18
+            "no_mask": 18
         },
         {
             "date": "2020-05-30",
             "mask": 602,
-            "no_mask" : 82
+            "no_mask": 82
         },
         {
             "date": "2020-05-31",
             "mask": 280,
-            "no_mask" : 27
+            "no_mask": 27
         },
         {
             "date": "2020-06-01",
             "mask": 115,
-            "no_mask" : 12
+            "no_mask": 12
         },
         {
             "date": "2020-06-02",
             "mask": 226,
-            "no_mask" : 29
+            "no_mask": 29
         },
         {
             "date": "2020-06-03",
             "mask": 140,
-            "no_mask" : 17
+            "no_mask": 17
         },
         {
             "date": "2020-06-04",
             "mask": 151,
-            "no_mask" : 15
+            "no_mask": 15
         },
         {
             "date": "2020-06-05",
             "mask": 198,
-            "no_mask" : 28
+            "no_mask": 28
+        },
+        {
+            "date": "2020-06-06",
+            "mask": 74,
+            "no_mask": 30
         }
     ]
 }

@@ -2,62 +2,98 @@
   <table :class="$style.table">
     <thead>
       <tr>
-        <th scope="col" rowspan="2">
-          {{ $t('項目') }}
+        <th scope="col" rowspan="2" colspan="2">
+          ウイルスに感染しない・<br />させないためにできること
+        </th>
+        <th :class="$style.headerDivided" scope="colgroup" colspan="4">
+          なぜ必要か
         </th>
         <th scope="col" rowspan="2">
-          {{ $t('数値') }}
-        </th>
-        <th :class="$style.headerDivided" scope="colgroup" colspan="2">
-          {{ $t('目安となる数値') }}
+          指標
         </th>
       </tr>
       <tr>
         <th :class="$style.headerDivided" scope="col">
-          {{ $t('緩和') }}
+          健康状態を<br />把握する
         </th>
         <th :class="$style.headerDivided" scope="col">
-          {{ $t('再要請') }}
+          ウイルスを<br />体から出さない
+        </th>
+        <th :class="$style.headerDivided" scope="col">
+          ウイルスを<br />広げない
+        </th>
+        <th :class="$style.headerDivided" scope="col">
+          ウイルスを<br />体に入れない
         </th>
       </tr>
     </thead>
     <tbody>
-      <tr v-for="item in status" :key="item.itemName">
-        <th scope="row">
-          {{ $t(replaceFullWidthByHalfWidth(item.itemName)) }}
-        </th>
-        <td :class="$style.value">
-          {{ item.itemValue.value }}
-          <span :class="$style.unit">{{ $t(item.itemValue.unit) }}</span>
-        </td>
-        <template
-          v-if="
-            item.itemValue.goThreshold !== null &&
-              item.itemValue.stopThreshold !== null
-          "
-        >
-          <td>
-            {{ $t(item.itemValue.goThreshold) }}
-          </td>
-          <td>
-            {{ $t(item.itemValue.stopThreshold) }}
-          </td>
-        </template>
-        <template
-          v-else-if="
-            item.itemValue.goThreshold !== null &&
-              item.itemValue.stopThreshold === null
-          "
-        >
-          <td colspan="2">
-            {{ $t(item.itemValue.goThreshold) }}
-          </td>
-        </template>
-        <template v-else>
-          <td colspan="2">
-            &ndash;
-          </td>
-        </template>
+      <tr>
+        <td rowspan="3">一般的な対策</td>
+        <td>定期的に体温を測定する</td>
+        <td>&#10004;</td>
+        <td />
+        <td />
+        <td />
+        <td>体温</td>
+      </tr>
+      <tr>
+        <td>マスクを着用する</td>
+        <td />
+        <td>&#10004;</td>
+        <td />
+        <td />
+        <td>着用率</td>
+      </tr>
+      <tr>
+        <td>手洗い・消毒する</td>
+        <td />
+        <td />
+        <td>&#10004;</td>
+        <td>&#10004;</td>
+        <td>頻度</td>
+      </tr>
+      <tr>
+        <td rowspan="4">人との接触機会を減らす</td>
+        <td>在宅勤務・時差出勤の活用</td>
+        <td />
+        <td />
+        <td>&#10004;</td>
+        <td>&#10004;</td>
+        <td>活用率</td>
+      </tr>
+      <tr>
+        <td>会議・懇親会等にオンラインを活用する</td>
+        <td />
+        <td />
+        <td>&#10004;</td>
+        <td>&#10004;</td>
+        <td>オンライン率</td>
+      </tr>
+      <tr>
+        <td>外食を減らす</td>
+        <td />
+        <td />
+        <td>&#10004;</td>
+        <td>&#10004;</td>
+        <td>外食率</td>
+      </tr>
+      <tr>
+        <td>買い物をオンラインにする</td>
+        <td />
+        <td />
+        <td>&#10004;</td>
+        <td>&#10004;</td>
+        <td>オンライン率</td>
+      </tr>
+      <tr>
+        <td rowspan="1">密集を避ける</td>
+        <td>人が密集する場所を避ける</td>
+        <td />
+        <td />
+        <td />
+        <td>&#10004;</td>
+        <td>滞在時間</td>
       </tr>
     </tbody>
   </table>
@@ -93,7 +129,7 @@ $default-pad: 0.5rem;
   width: 100%;
   color: $green-1;
   border-collapse: collapse;
-  @include font-size(16);
+  @include font-size(10);
 
   th,
   td {

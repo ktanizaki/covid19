@@ -1,9 +1,9 @@
 <template>
   <v-col cols="12" md="6" class="DataCard">
     <severe-case-bar-chart
-      title="マスク着用率(多摩市)"
-      title-id="positive-status-severe-case"
-      chart-id="time-bar-chart-positive-status-severe-case"
+      title="マスク着用率(渋谷)"
+      title-id="positive-status-severe-case2"
+      chart-id="time-bar-chart-positive-status-severe-case2"
       :chart-data="graphData"
       :date="Data.date"
       unit="%"
@@ -14,12 +14,10 @@
         </div>
         <ul>
           <li>
-            {{ '（注）計上を開始した4月22日から作成' }}
+            {{ '（注）計上を開始した*月**日から作成' }}
           </li>
           <li>
-            {{
-              '（注）Twitter にハッシュタグ #newnormaldegulab をつけて ${マスクあり人数], ${マスクなし人数}, ${地域名} の形式で投稿されたデータを集計するようにするかもしれません？'
-            }}
+            {{ '（注）ダミーデータです' }}
           </li>
         </ul>
       </template>
@@ -39,7 +37,7 @@ export default {
     const graphData = []
     Data.data
       .filter(d => new Date(d.date) > new Date('2020-04-21'))
-      .filter(d => d.city === '多摩市')
+      .filter(d => d.city === '渋谷区')
       .forEach(d => {
         const date = new Date(d.date)
         const subTotal = (d.mask / (d.mask + d.no_mask)) * 100

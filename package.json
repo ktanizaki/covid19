@@ -8,8 +8,8 @@
     "node": ">=10.19.0"
   },
   "scripts": {
-    "dev": "cross-env NODE_ENV=development GENERATE_ENV=development nuxt-ts",
-    "dev-no-axe": "cross-env NODE_ENV=dev-no-axe GENERATE_ENV=development nuxt-ts",
+    "dev": "cross-env NODE_ENV=development GENERATE_ENV=development nuxt-ts --hostname 0.0.0.0 --port 3000",
+    "dev-no-axe": "cross-env NODE_ENV=dev-no-axe GENERATE_ENV=development nuxt-ts --hostname 0.0.0.0 --port 3000",
     "build": "nuxt-ts build",
     "start": "cross-env NODE_ENV=production nuxt-ts start",
     "generate:deploy": "cross-env GENERATE_ENV=production nuxt-ts generate",
@@ -50,7 +50,8 @@
     "nuxt-i18n": "^6.8.1",
     "vue-chartjs": "^3.5.0",
     "vue-scrollto": "^2.17.1",
-    "vue-spinner": "^1.0.3"
+    "vue-spinner": "^1.0.3",
+    "yarn": "^1.22.4"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.1.0",

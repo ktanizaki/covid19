@@ -3,109 +3,34 @@
 </template>
 
 <script>
-import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
-import TestedCasesDetailsCard from '@/components/cards/TestedCasesDetailsCard.vue'
-import ConfirmedCasesNumberCard from '@/components/cards/ConfirmedCasesNumberCard.vue'
-import ConfirmedCasesAttributesCard from '@/components/cards/ConfirmedCasesAttributesCard.vue'
-import ConfirmedCasesByMunicipalitiesCard from '@/components/cards/ConfirmedCasesByMunicipalitiesCard.vue'
-import TestedNumberCard from '@/components/cards/TestedNumberCard.vue'
-import InspectionPersonsNumberCard from '@/components/cards/InspectionPersonsNumberCard.vue'
-import TelephoneAdvisoryReportsNumberCard from '@/components/cards/TelephoneAdvisoryReportsNumberCard.vue'
-import ConsultationDeskReportsNumberCard from '@/components/cards/ConsultationDeskReportsNumberCard.vue'
-import MonitoringConfirmedCasesNumberCard from '@/components/cards/MonitoringConfirmedCasesNumberCard.vue'
-import MonitoringConsultationDeskReportsNumberCard from '@/components/cards/MonitoringConsultationDeskReportsNumberCard.vue'
-import MetroCard from '@/components/cards/MetroCard.vue'
-import AgencyCard from '@/components/cards/AgencyCard.vue'
-import PositiveNumberByDiagnosedDateCard from '@/components/cards/PositiveNumberByDiagnosedDateCard.vue'
-import PositiveRateCard from '@/components/cards/PositiveRateCard.vue'
-import UntrackedRateCard from '@/components/cards/UntrackedRateCard.vue'
-import ConfirmedCasesIncreaseRatioByWeekCard from '@/components/cards/ConfirmedCasesIncreaseRatioByWeekCard.vue'
 import SevereCaseCard from '@/components/cards/SevereCaseCard.vue'
-import HospitalizedNumberCard from '@/components/cards/HospitalizedNumberCard.vue'
+import SevereCaseCard2 from '@/components/cards/SevereCaseCard2.vue'
+import SevereCaseCard3 from '@/components/cards/SevereCaseCard3.vue'
+import SevereCaseCard4 from '@/components/cards/SevereCaseCard4.vue'
 import MonitoringStatusOverviewCard from '@/components/cards/MonitoringStatusOverviewCard.vue'
 
 export default {
   components: {
-    MonitoringConfirmedCasesNumberCard,
     SevereCaseCard,
-    MonitoringConsultationDeskReportsNumberCard,
-    PositiveRateCard,
-    UntrackedRateCard,
-    ConfirmedCasesDetailsCard,
-    TestedCasesDetailsCard,
-    ConfirmedCasesNumberCard,
-    ConfirmedCasesAttributesCard,
-    ConfirmedCasesByMunicipalitiesCard,
-    TestedNumberCard,
-    InspectionPersonsNumberCard,
-    TelephoneAdvisoryReportsNumberCard,
-    ConsultationDeskReportsNumberCard,
-    MetroCard,
-    AgencyCard,
-    PositiveNumberByDiagnosedDateCard,
-    ConfirmedCasesIncreaseRatioByWeekCard,
-    HospitalizedNumberCard,
+    SevereCaseCard2,
+    SevereCaseCard3,
+    SevereCaseCard4,
     MonitoringStatusOverviewCard
   },
   data() {
     let title, updatedAt, cardComponent
     switch (this.$route.params.card) {
-      case 'details-of-confirmed-cases':
-        cardComponent = 'confirmed-cases-details-card'
-        break
-      case 'details-of-tested-cases':
-        cardComponent = 'tested-cases-details-card'
-        break
-      case 'number-of-confirmed-cases':
-        cardComponent = 'confirmed-cases-number-card'
-        break
-      case 'number-of-confirmed-cases-by-municipalities':
-        cardComponent = 'confirmed-cases-by-municipalities-card'
-        break
-      case 'attributes-of-confirmed-cases':
-        cardComponent = 'confirmed-cases-attributes-card'
-        break
-      case 'number-of-tested':
-        cardComponent = 'tested-number-card'
-        break
-      case 'number-of-inspection-persons':
-        cardComponent = 'inspection-persons-number-card'
-        break
-      case 'number-of-reports-to-covid19-telephone-advisory-center':
-        cardComponent = 'telephone-advisory-reports-number-card'
-        break
-      case 'number-of-reports-to-covid19-consultation-desk':
-        cardComponent = 'consultation-desk-reports-number-card'
-        break
-      case 'predicted-number-of-toei-subway-passengers':
-        cardComponent = 'metro-card'
-        break
-      case 'agency':
-        cardComponent = 'agency-card'
-        break
-      case 'positive-number-by-diagnosed-date':
-        cardComponent = 'positive-number-by-diagnosed-date-card'
-        break
-      case 'positive-rate':
-        cardComponent = 'positive-rate-card'
-        break
-      case 'monitoring-number-of-confirmed-cases':
-        cardComponent = 'monitoring-confirmed-cases-number-card'
-        break
-      case 'untracked-rate':
-        cardComponent = 'untracked-rate-card'
-        break
-      case 'increase-ratio-of-confirmed-cases-by-daily':
-        cardComponent = 'confirmed-cases-increase-ratio-by-week-card'
-        break
       case 'positive-status-severe-case':
         cardComponent = 'severe-case-card'
         break
-      case 'number-of-hospitalized':
-        cardComponent = 'hospitalized-number-card'
+      case 'positive-status-severe-case2':
+        cardComponent = 'severe-case-card2'
         break
-      case 'monitoring-number-of-reports-to-covid19-consultation-desk':
-        cardComponent = 'monitoring-consultation-desk-reports-number-card'
+      case 'positive-status-severe-case3':
+        cardComponent = 'severe-case-card3'
+        break
+      case 'positive-status-severe-case4':
+        cardComponent = 'severe-case-card4'
         break
       case 'monitoring-status-overview':
         cardComponent = 'monitoring-status-overview-card'

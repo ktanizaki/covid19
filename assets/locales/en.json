@@ -463,5 +463,14 @@
   "テレワーク・時差出勤などスムーズビズの取組は、新型コロナウイルス感染症の対策としても効果的です。感染症対策として、東京2020大会時の交通混雑緩和に向けた取組の前倒しをお願いします。": "テレワーク・時差出勤などスムーズビズの取組は、新型コロナウイルス感染症の対策としても効果的です。感染症対策として、東京2020大会時の交通混雑緩和に向けた取組の前倒しをお願いします。",
   "（注）検査結果の判明日を基準とする": "(Note) Based on the date when the test result is confirmed",
   "※（1）、（2）、（6）、（7）は、7日間移動平均で算出（たとえば、5月7日の移動平均値は、5月1日から5月7日までの実績値を平均したもの）。また、（1）の数字が10人以下となった場合は、（2）及び（3）は参考値とする": "※（1）、（2）、（6）、（7）は、7日間移動平均で算出（たとえば、5月7日の移動平均値は、5月1日から5月7日までの実績値を平均したもの）。また、（1）の数字が10人以下となった場合は、（2）及び（3）は参考値とする",
-  "検査実施人数（健康安全研究センターによる実施分）": "Number of people tested (tests conducted by Tokyo Metropolitan Institute of Public Health)"
+  "検査実施人数（健康安全研究センターによる実施分）": "Number of people tested (tests conducted by Tokyo Metropolitan Institute of Public Health)",
+  "マスク着用率": "Face mask wearing rate",
+  "マスク着用率(多摩市)": "Face mask wearing rate (Tama)",
+  "マスク着用率(渋谷区)": "Face mask wearing rate (Shibuya)",
+  "マスク着用率(Abbey Road)": "Face mask wearing rate (Abbey Road)",
+  "マスク着用率(その他)": "Face mask wearing rate (Other)",
+  "Abbey Road": "Abbey Road",
+  "（注）計上を開始した4月22日から作成": "(Note) Created from April 22 when we had started to count",
+  "（注）計上を開始した*月**日から作成": "(Note) Created from MM-DD when we had started to count",
+  "（注）ダミーデータです": "(Note) This is dummy data"
 }

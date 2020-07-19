@@ -1,7 +1,7 @@
 <template>
   <v-col cols="12" md="6" class="DataCard">
     <severe-case-bar-chart
-      title="マスク着用率(渋谷)"
+      :title="$t('マスク着用率(渋谷区)')"
       title-id="positive-status-severe-case2"
       chart-id="time-bar-chart-positive-status-severe-case2"
       :chart-data="graphData"
@@ -14,10 +14,10 @@
         </div>
         <ul>
           <li>
-            {{ '（注）計上を開始した*月**日から作成' }}
+            {{ $t('（注）計上を開始した*月**日から作成') }}
           </li>
           <li>
-            {{ '（注）ダミーデータです' }}
+            {{ $t('（注）ダミーデータです') }}
           </li>
         </ul>
       </template>

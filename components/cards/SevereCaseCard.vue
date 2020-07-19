@@ -1,7 +1,7 @@
 <template>
   <v-col cols="12" md="6" class="DataCard">
     <severe-case-bar-chart
-      title="マスク着用率(多摩市)"
+      :title="$t('マスク着用率(多摩市)')"
       title-id="positive-status-severe-case"
       chart-id="time-bar-chart-positive-status-severe-case"
       :chart-data="graphData"
@@ -14,12 +14,7 @@
         </div>
         <ul>
           <li>
-            {{ '（注）計上を開始した4月22日から作成' }}
-          </li>
-          <li>
-            {{
-              '（注）Twitter にハッシュタグ #newnormaldegulab をつけて ${マスクあり人数], ${マスクなし人数}, ${地域名} の形式で投稿されたデータを集計するようにするかもしれません？'
-            }}
+            {{ $t('（注）計上を開始した4月22日から作成') }}
           </li>
         </ul>
       </template>

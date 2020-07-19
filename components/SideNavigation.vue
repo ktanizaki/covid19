@@ -154,6 +154,11 @@ export default Vue.extend({
       return [
         {
           icon: 'mdi-chart-timeline-variant',
+          title: this.$t('マスク着用率'),
+          link: this.localePath('/')
+        },/*
+        {
+          icon: 'mdi-chart-timeline-variant',
           title: this.$t('都内の最新感染動向'),
           link: this.localePath('/')
         },
@@ -214,11 +219,11 @@ export default Vue.extend({
           title: this.$t('知事からのメッセージ'),
           link:
             'https://www.metro.tokyo.lg.jp/tosei/governor/governor/katsudo/2020/03/03_00.html'
-        },
+        },*/
         {
           title: this.$t('当サイトについて'),
           link: this.localePath('/about')
-        },
+        }/*,
         {
           title: this.$t('お問い合わせ先一覧'),
           link: this.localePath('/contacts')
@@ -226,7 +231,7 @@ export default Vue.extend({
         {
           title: this.$t('東京都公式ホームページ'),
           link: 'https://www.metro.tokyo.lg.jp/'
-        }
+        }*/
       ]
     }
   },

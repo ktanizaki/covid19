@@ -88,7 +88,7 @@ const options: NuxtVueI18n.Options.AllOptionsInterface = {
       iso: 'en-US',
       file: 'en.json',
       description: 'English'
-    },
+    }/*,
     {
       code: 'zh-cn',
       name: '简体中文',
@@ -125,7 +125,7 @@ const options: NuxtVueI18n.Options.AllOptionsInterface = {
       iso: 'ja-JP',
       file: 'ja-Hira.json',
       description: 'Easy Japanese'
-    }
+    }*/
   ]
 }
 

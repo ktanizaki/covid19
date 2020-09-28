@@ -7,6 +7,9 @@ import SevereCaseCard from '@/components/cards/SevereCaseCard.vue'
 import SevereCaseCard2 from '@/components/cards/SevereCaseCard2.vue'
 import SevereCaseCard3 from '@/components/cards/SevereCaseCard3.vue'
 import SevereCaseCard4 from '@/components/cards/SevereCaseCard4.vue'
+import SevereCaseCard5 from '@/components/cards/SevereCaseCard5.vue'
+import SevereCaseCard6 from '@/components/cards/SevereCaseCard6.vue'
+import SevereCaseCard7 from '@/components/cards/SevereCaseCard7.vue'
 import MonitoringStatusOverviewCard from '@/components/cards/MonitoringStatusOverviewCard.vue'
 
 export default {
@@ -15,6 +18,9 @@ export default {
     SevereCaseCard2,
     SevereCaseCard3,
     SevereCaseCard4,
+    SevereCaseCard5,
+    SevereCaseCard6,
+    SevereCaseCard7,
     MonitoringStatusOverviewCard
   },
   data() {
@@ -31,6 +37,15 @@ export default {
         break
       case 'positive-status-severe-case4':
         cardComponent = 'severe-case-card4'
+        break
+      case 'positive-status-severe-case5':
+        cardComponent = 'severe-case-card5'
+        break
+      case 'positive-status-severe-case6':
+        cardComponent = 'severe-case-card6'
+        break
+      case 'positive-status-severe-case7':
+        cardComponent = 'severe-case-card7'
         break
       case 'monitoring-status-overview':
         cardComponent = 'monitoring-status-overview-card'
@@ -51,11 +66,9 @@ export default {
         ? `${url}/ogp/${this.$route.params.card}.png?t=${timestamp}`
         : `${url}/ogp/${this.$i18n.locale}/${this.$route.params.card}.png?t=${timestamp}`
     const description = `${this.$t(
-      '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、東京都が開設したものです。'
+      '当サイトはマスク着用率等のデータを公開するために、東京工業大学 出口研究室が開設したものです。'
     )}`
-    const defaultTitle = `${this.$t('東京都')} ${this.$t(
-      '新型コロナウイルス感染症'
-    )}${this.$t('対策サイト')}`
+    const defaultTitle = `${this.$t('データ公開サイト') + ' '}`
 
     return {
       titleTemplate: title => `${this.title || title} | ${defaultTitle}`,

@@ -1,9 +1,9 @@
 <template>
   <v-col cols="12" md="6" class="DataCard">
     <severe-case-bar-chart
-      :title="$t('マスク着用率(台北)')"
-      title-id="positive-status-severe-case4"
-      chart-id="time-bar-chart-positive-status-severe-case4"
+      :title="$t('マスク着用率(ヴェネツィア)')"
+      title-id="positive-status-severe-case5"
+      chart-id="time-bar-chart-positive-status-severe-case5"
       :chart-data="graphData"
       :date="Data.date"
       unit="%"
@@ -34,7 +34,7 @@ export default {
     const graphData = []
     Data.data
       .filter(d => new Date(d.date) > new Date('2020-04-21'))
-      .filter(d => d.city === 'tw_taipei_daxi')
+      .filter(d => d.city === 'it_venice_rialto_bridge')
       .forEach(d => {
         const date = new Date(d.date)
         const subTotal = (d.mask / (d.mask + d.no_mask)) * 100

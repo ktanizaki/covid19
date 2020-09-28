@@ -391,7 +391,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
       return [
         { text: this.$t('日付'), value: 'text' },
         {
-          text: `${this.$t('重症患者数')} (${this.$t('日別')})`,
+          text: `${this.$t('マスク着用率')} (${this.$t('日別')})`,
           value: 'transition',
           align: 'end'
         }

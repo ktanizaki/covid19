@@ -13,6 +13,12 @@
       <severe-case-card3 />
       <!-- モニタリング指標 マスク着用率4 -->
       <severe-case-card4 />
+      <!-- モニタリング指標 マスク着用率5 -->
+      <severe-case-card5 />
+      <!-- モニタリング指標 マスク着用率6 -->
+      <severe-case-card6 />
+      <!-- モニタリング指標 マスク着用率7 -->
+      <severe-case-card7 />
     </card-row>
   </div>
 </template>
@@ -25,6 +31,9 @@ import SevereCaseCard from '@/components/cards/SevereCaseCard.vue'
 import SevereCaseCard2 from '@/components/cards/SevereCaseCard2.vue'
 import SevereCaseCard3 from '@/components/cards/SevereCaseCard3.vue'
 import SevereCaseCard4 from '@/components/cards/SevereCaseCard4.vue'
+import SevereCaseCard5 from '@/components/cards/SevereCaseCard5.vue'
+import SevereCaseCard6 from '@/components/cards/SevereCaseCard6.vue'
+import SevereCaseCard7 from '@/components/cards/SevereCaseCard7.vue'
 import MonitoringStatusOverviewCard from '@/components/cards/MonitoringStatusOverviewCard.vue'
 
 export default Vue.extend({
@@ -35,6 +44,9 @@ export default Vue.extend({
     SevereCaseCard2,
     SevereCaseCard3,
     SevereCaseCard4,
+    SevereCaseCard5,
+    SevereCaseCard6,
+    SevereCaseCard7,
     MonitoringStatusOverviewCard
   }
 })

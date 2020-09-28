@@ -1,7 +1,7 @@
 <template>
   <v-col cols="12" md="6" class="DataCard">
     <severe-case-bar-chart
-      :title="$t('マスク着用率(Abbey Road)')"
+      :title="$t('マスク着用率(大阪市)')"
       title-id="positive-status-severe-case3"
       chart-id="time-bar-chart-positive-status-severe-case3"
       :chart-data="graphData"
@@ -15,9 +15,6 @@
         <ul>
           <li>
             {{ $t('（注）計上を開始した*月**日から作成') }}
-          </li>
-          <li>
-            {{ $t('（注）ダミーデータです') }}
           </li>
         </ul>
       </template>
@@ -37,7 +34,7 @@ export default {
     const graphData = []
     Data.data
       .filter(d => new Date(d.date) > new Date('2020-04-21'))
-      .filter(d => d.city === 'Abbey Road')
+      .filter(d => d.city === 'jp_dotonbori_donki')
       .forEach(d => {
         const date = new Date(d.date)
         const subTotal = (d.mask / (d.mask + d.no_mask)) * 100

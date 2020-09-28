@@ -10,15 +10,8 @@
       </v-icon>
       <h1 class="SideNavigation-HeaderTitle">
         <nuxt-link :to="localePath('/')" class="SideNavigation-HeaderLink">
-          <img
-            class="SideNavigation-HeaderLogo"
-            src="/logo.svg"
-            :alt="$t('東京都')"
-          />
           <div class="SideNavigation-HeaderText">
-            {{ $t('menu/新型コロナウイルス感染症') }}<br />{{
-              $t('menu/対策サイト')
-            }}
+            {{ $t('menu/データ公開サイト') }}
           </div>
         </nuxt-link>
       </h1>

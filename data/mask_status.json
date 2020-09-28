@@ -1,5 +1,5 @@
 {
-    "date": "2020\/6\/2 18:45",
+    "date": "2020\/7\/26 20:00",
     "data": [
  
         {
@@ -405,76 +405,700 @@
             "city": "多摩市"
         },
         {
-            "date": "2020-06-16",
-            "mask": 100,
-            "no_mask": 35,
-            "city": "渋谷区"
+            "date": "2020-06-22",
+            "mask": 95,
+            "no_mask": 8,
+            "city": "多摩市"
         },
         {
-            "date": "2020-06-17",
-            "mask": 100,
-            "no_mask": 34,
-            "city": "渋谷区"
+            "date": "2020-06-23",
+            "mask": 115,
+            "no_mask": 15,
+            "city": "多摩市"
         },
         {
-            "date": "2020-06-18",
-            "mask": 100,
+            "date": "2020-06-24",
+            "mask": 211,
+            "no_mask": 31,
+            "city": "多摩市"
+        },
+        {
+            "date": "2020-06-25",
+            "mask": 261,
+            "no_mask": 23,
+            "city": "多摩市"
+        },
+        {
+            "date": "2020-06-26",
+            "mask": 176,
             "no_mask": 30,
-            "city": "渋谷区"
+            "city": "多摩市"
         },
         {
-            "date": "2020-06-19",
-            "mask": 100,
+            "date": "2020-06-27",
+            "mask": 234,
+            "no_mask": 36,
+            "city": "多摩市"
+        },
+        {
+            "date": "2020-06-28",
+            "mask": 326,
+            "no_mask": 48,
+            "city": "多摩市"
+        },
+        {
+            "date": "2020-06-29",
+            "mask": 24,
+            "no_mask": 2,
+            "city": "多摩市"
+        },
+        {
+            "date": "2020-06-30",
+            "mask": 40,
+            "no_mask": 4,
+            "city": "多摩市"
+        },
+        {
+            "date": "2020-07-01",
+            "mask": 156,
+            "no_mask": 23,
+            "city": "多摩市"
+        },
+        {
+            "date": "2020-07-02",
+            "mask": 130,
+            "no_mask": 6,
+            "city": "多摩市"
+        },
+        {
+            "date": "2020-07-03",
+            "mask": 106,
+            "no_mask": 22,
+            "city": "多摩市"
+        },
+        {
+            "date": "2020-07-04",
+            "mask": 251,
+            "no_mask": 24,
+            "city": "多摩市"
+        },
+        {
+            "date": "2020-07-05",
+            "mask": 201,
+            "no_mask": 32,
+            "city": "多摩市"
+        },
+        {
+            "date": "2020-07-06",
+            "mask": 155,
+            "no_mask": 18,
+            "city": "多摩市"
+        },
+        {
+            "date": "2020-07-07",
+            "mask": 95,
+            "no_mask": 12,
+            "city": "多摩市"
+        },
+        {
+            "date": "2020-07-08",
+            "mask": 98,
+            "no_mask": 13,
+            "city": "多摩市"
+        },
+        {
+            "date": "2020-07-09",
+            "mask": 160,
+            "no_mask": 17,
+            "city": "多摩市"
+        },
+        {
+            "date": "2020-07-10",
+            "mask": 496,
+            "no_mask": 42,
+            "city": "多摩市"
+        },
+        {
+            "date": "2020-07-11",
+            "mask": 83,
+            "no_mask": 13,
+            "city": "多摩市"
+        },
+        {
+            "date": "2020-07-12",
+            "mask": 265,
+            "no_mask": 29,
+            "city": "多摩市"
+        },
+        {
+            "date": "2020-07-13",
+            "mask": 122,
+            "no_mask": 9,
+            "city": "多摩市"
+        },
+        {
+            "date": "2020-07-14",
+            "mask": 163,
+            "no_mask": 17,
+            "city": "多摩市"
+        },
+        {
+            "date": "2020-07-15",
+            "mask": 103,
+            "no_mask": 8,
+            "city": "多摩市"
+        },
+        {
+            "date": "2020-07-16",
+            "mask": 196,
+            "no_mask": 14,
+            "city": "多摩市"
+        },
+        {
+            "date": "2020-07-17",
+            "mask": 108,
+            "no_mask": 8,
+            "city": "多摩市"
+        },
+        {
+            "date": "2020-07-18",
+            "mask": 326,
+            "no_mask": 37,
+            "city": "多摩市"
+        },
+        {
+            "date": "2020-07-19",
+            "mask": 276,
+            "no_mask": 21,
+            "city": "多摩市"
+        },
+        {
+            "date": "2020-07-20",
+            "mask": 285,
+            "no_mask": 49,
+            "city": "多摩市"
+        },
+        {
+            "date": "2020-07-21",
+            "mask": 161,
+            "no_mask": 15,
+            "city": "多摩市"
+        },
+        {
+            "date": "2020-07-22",
+            "mask": 280,
+            "no_mask": 24,
+            "city": "多摩市"
+        },
+        {
+            "date": "2020-07-23",
+            "mask": 73,
+            "no_mask": 10,
+            "city": "多摩市"
+        },
+        {
+            "date": "2020-07-24",
+            "mask": 83,
+            "no_mask": 6,
+            "city": "多摩市"
+        },
+        {
+            "date": "2020-07-25",
+            "mask": 80,
+            "no_mask": 5,
+            "city": "多摩市"
+        },
+        {
+            "date": "2020-07-26",
+            "mask": 165,
+            "no_mask": 14,
+            "city": "多摩市"
+        },
+        {
+            "date": "2020-07-02",
+            "mask": 0,
+            "no_mask": 9,
+            "city": "it_venice_rialto_bridge"
+        },
+        {
+            "date": "2020-07-03",
+            "mask": 1,
+            "no_mask": 6,
+            "city": "it_venice_rialto_bridge"
+        },
+        {
+            "date": "2020-07-04",
+            "mask": 6,
+            "no_mask": 15,
+            "city": "it_venice_rialto_bridge"
+        },
+        {
+            "date": "2020-07-05",
+            "mask": 4,
+            "no_mask": 19,
+            "city": "it_venice_rialto_bridge"
+        },
+        {
+            "date": "2020-07-06",
+            "mask": 4,
+            "no_mask": 13,
+            "city": "it_venice_rialto_bridge"
+        },
+        {
+            "date": "2020-07-07",
+            "mask": 0,
+            "no_mask": 1,
+            "city": "it_venice_rialto_bridge"
+        },
+        {
+            "date": "2020-07-11",
+            "mask": 1,
+            "no_mask": 6,
+            "city": "it_venice_rialto_bridge"
+        },
+        {
+            "date": "2020-07-13",
+            "mask": 5,
+            "no_mask": 14,
+            "city": "it_venice_rialto_bridge"
+        },
+        {
+            "date": "2020-07-14",
+            "mask": 0,
+            "no_mask": 14,
+            "city": "it_venice_rialto_bridge"
+        },
+        {
+            "date": "2020-07-15",
+            "mask": 4,
+            "no_mask": 3,
+            "city": "it_venice_rialto_bridge"
+        },
+        {
+            "date": "2020-07-16",
+            "mask": 4,
+            "no_mask": 11,
+            "city": "it_venice_rialto_bridge"
+        },
+        {
+            "date": "2020-07-01",
+            "mask": 27,
+            "no_mask": 22,
+            "city": "jp_dotonbori_donki"
+        },
+        {
+            "date": "2020-07-02",
+            "mask": 24,
+            "no_mask": 23,
+            "city": "jp_dotonbori_donki"
+        },
+        {
+            "date": "2020-07-03",
+            "mask": 5,
+            "no_mask": 6,
+            "city": "jp_dotonbori_donki"
+        },
+        {
+            "date": "2020-07-04",
+            "mask": 34,
+            "no_mask": 27,
+            "city": "jp_dotonbori_donki"
+        },
+        {
+            "date": "2020-07-05",
+            "mask": 42,
+            "no_mask": 38,
+            "city": "jp_dotonbori_donki"
+        },
+        {
+            "date": "2020-07-06",
+            "mask": 2,
+            "no_mask": 2,
+            "city": "jp_dotonbori_donki"
+        },
+        {
+            "date": "2020-07-07",
+            "mask": 10,
+            "no_mask": 13,
+            "city": "jp_dotonbori_donki"
+        },
+        {
+            "date": "2020-07-08",
+            "mask": 92,
+            "no_mask": 92,
+            "city": "jp_dotonbori_donki"
+        },
+        {
+            "date": "2020-07-09",
+            "mask": 18,
+            "no_mask": 10,
+            "city": "jp_dotonbori_donki"
+        },
+        {
+            "date": "2020-07-10",
+            "mask": 17,
+            "no_mask": 7,
+            "city": "jp_dotonbori_donki"
+        },
+        {
+            "date": "2020-07-11",
+            "mask": 28,
+            "no_mask": 36,
+            "city": "jp_dotonbori_donki"
+        },
+        {
+            "date": "2020-07-12",
+            "mask": 44,
+            "no_mask": 20,
+            "city": "jp_dotonbori_donki"
+        },
+        {
+            "date": "2020-07-13",
+            "mask": 5,
+            "no_mask": 1,
+            "city": "jp_dotonbori_donki"
+        },
+        {
+            "date": "2020-07-14",
+            "mask": 21,
+            "no_mask": 15,
+            "city": "jp_dotonbori_donki"
+        },
+        {
+            "date": "2020-07-15",
+            "mask": 16,
             "no_mask": 25,
-            "city": "渋谷区"
+            "city": "jp_dotonbori_donki"
         },
         {
-            "date": "2020-06-20",
-            "mask": 100,
-            "no_mask": 28,
-            "city": "渋谷区"
+            "date": "2020-07-16",
+            "mask": 22,
+            "no_mask": 17,
+            "city": "jp_dotonbori_donki"
         },
         {
-            "date": "2020-06-21",
-            "mask": 100,
+            "date": "2020-06-02",
+            "mask": 141,
+            "no_mask": 48,
+            "city": "jp_shibuya_scramble"
+        },
+        {
+            "date": "2020-06-03",
+            "mask": 51,
+            "no_mask": 15,
+            "city": "jp_shibuya_scramble"
+        },
+        {
+            "date": "2020-06-08",
+            "mask": 86,
+            "no_mask": 29,
+            "city": "jp_shibuya_scramble"
+        },
+        {
+            "date": "2020-06-09",
+            "mask": 88,
             "no_mask": 30,
-            "city": "渋谷区"
+            "city": "jp_shibuya_scramble"
         },
         {
-            "date": "2020-06-16",
-            "mask": 100,
-            "no_mask": 80,
-            "city": "Abbey Road"
+            "date": "2020-06-11",
+            "mask": 13,
+            "no_mask": 10,
+            "city": "jp_shibuya_scramble"
         },
         {
-            "date": "2020-06-17",
-            "mask": 100,
-            "no_mask": 86,
-            "city": "Abbey Road"
+            "date": "2020-06-12",
+            "mask": 17,
+            "no_mask": 7,
+            "city": "jp_shibuya_scramble"
         },
         {
-            "date": "2020-06-18",
-            "mask": 100,
-            "no_mask": 79,
-            "city": "Abbey Road"
+            "date": "2020-06-13",
+            "mask": 5,
+            "no_mask": 2,
+            "city": "jp_shibuya_scramble"
         },
         {
-            "date": "2020-06-19",
-            "mask": 100,
-            "no_mask": 84,
-            "city": "Abbey Road"
+            "date": "2020-06-14",
+            "mask": 7,
+            "no_mask": 4,
+            "city": "jp_shibuya_scramble"
         },
         {
-            "date": "2020-06-20",
-            "mask": 100,
-            "no_mask": 82,
-            "city": "Abbey Road"
+            "date": "2020-07-04",
+            "mask": 47,
+            "no_mask": 542,
+            "city": "tw_taipei_daxi"
         },
         {
-            "date": "2020-06-21",
-            "mask": 100,
-            "no_mask": 76,
-            "city": "Abbey Road"
+            "date": "2020-07-05",
+            "mask": 60,
+            "no_mask": 671,
+            "city": "tw_taipei_daxi"
+        },
+        {
+            "date": "2020-07-06",
+            "mask": 5,
+            "no_mask": 70,
+            "city": "tw_taipei_daxi"
+        },
+        {
+            "date": "2020-07-07",
+            "mask": 2,
+            "no_mask": 55,
+            "city": "tw_taipei_daxi"
+        },
+        {
+            "date": "2020-07-08",
+            "mask": 11,
+            "no_mask": 131,
+            "city": "tw_taipei_daxi"
+        },
+        {
+            "date": "2020-07-09",
+            "mask": 7,
+            "no_mask": 142,
+            "city": "tw_taipei_daxi"
+        },
+        {
+            "date": "2020-07-10",
+            "mask": 14,
+            "no_mask": 205,
+            "city": "tw_taipei_daxi"
+        },
+        {
+            "date": "2020-07-11",
+            "mask": 72,
+            "no_mask": 835,
+            "city": "tw_taipei_daxi"
+        },
+        {
+            "date": "2020-07-12",
+            "mask": 71,
+            "no_mask": 797,
+            "city": "tw_taipei_daxi"
+        },
+        {
+            "date": "2020-07-13",
+            "mask": 0,
+            "no_mask": 47,
+            "city": "tw_taipei_daxi"
+        },
+        {
+            "date": "2020-07-14",
+            "mask": 2,
+            "no_mask": 58,
+            "city": "tw_taipei_daxi"
+        },
+        {
+            "date": "2020-07-15",
+            "mask": 3,
+            "no_mask": 144,
+            "city": "tw_taipei_daxi"
+        },
+        {
+            "date": "2020-07-16",
+            "mask": 5,
+            "no_mask": 164,
+            "city": "tw_taipei_daxi"
+        },
+        {
+            "date": "2020-07-01",
+            "mask": 3,
+            "no_mask": 31,
+            "city": "uk_abbey_road"
+        },
+        {
+            "date": "2020-07-02",
+            "mask": 2,
+            "no_mask": 20,
+            "city": "uk_abbey_road"
+        },
+        {
+            "date": "2020-07-03",
+            "mask": 1,
+            "no_mask": 13,
+            "city": "uk_abbey_road"
+        },
+        {
+            "date": "2020-07-04",
+            "mask": 2,
+            "no_mask": 43,
+            "city": "uk_abbey_road"
+        },
+        {
+            "date": "2020-07-05",
+            "mask": 0,
+            "no_mask": 44,
+            "city": "uk_abbey_road"
+        },
+        {
+            "date": "2020-07-06",
+            "mask": 4,
+            "no_mask": 41,
+            "city": "uk_abbey_road"
+        },
+        {
+            "date": "2020-07-07",
+            "mask": 41,
+            "no_mask": 278,
+            "city": "uk_abbey_road"
+        },
+        {
+            "date": "2020-07-08",
+            "mask": 9,
+            "no_mask": 195,
+            "city": "uk_abbey_road"
+        },
+        {
+            "date": "2020-07-09",
+            "mask": 3,
+            "no_mask": 46,
+            "city": "uk_abbey_road"
+        },
+        {
+            "date": "2020-07-10",
+            "mask": 3,
+            "no_mask": 42,
+            "city": "uk_abbey_road"
+        },
+        {
+            "date": "2020-07-11",
+            "mask": 2,
+            "no_mask": 28,
+            "city": "uk_abbey_road"
+        },
+        {
+            "date": "2020-07-12",
+            "mask": 5,
+            "no_mask": 59,
+            "city": "uk_abbey_road"
+        },
+        {
+            "date": "2020-07-13",
+            "mask": 1,
+            "no_mask": 55,
+            "city": "uk_abbey_road"
+        },
+        {
+            "date": "2020-07-14",
+            "mask": 1,
+            "no_mask": 66,
+            "city": "uk_abbey_road"
+        },
+        {
+            "date": "2020-07-15",
+            "mask": 2,
+            "no_mask": 38,
+            "city": "uk_abbey_road"
+        },
+        {
+            "date": "2020-07-16",
+            "mask": 6,
+            "no_mask": 31,
+            "city": "uk_abbey_road"
+        },
+        {
+            "date": "2020-07-01",
+            "mask": 4,
+            "no_mask": 33,
+            "city": "ie_dublin_templebar"
+        },
+        {
+            "date": "2020-07-02",
+            "mask": 5,
+            "no_mask": 34,
+            "city": "ie_dublin_templebar"
+        },
+        {
+            "date": "2020-07-03",
+            "mask": 7,
+            "no_mask": 29,
+            "city": "ie_dublin_templebar"
+        },
+        {
+            "date": "2020-07-04",
+            "mask": 8,
+            "no_mask": 69,
+            "city": "ie_dublin_templebar"
+        },
+        {
+            "date": "2020-07-05",
+            "mask": 6,
+            "no_mask": 46,
+            "city": "ie_dublin_templebar"
+        },
+        {
+            "date": "2020-07-06",
+            "mask": 2,
+            "no_mask": 24,
+            "city": "ie_dublin_templebar"
+        },
+        {
+            "date": "2020-07-07",
+            "mask": 15,
+            "no_mask": 85,
+            "city": "ie_dublin_templebar"
+        },
+        {
+            "date": "2020-07-08",
+            "mask": 10,
+            "no_mask": 53,
+            "city": "ie_dublin_templebar"
+        },
+        {
+            "date": "2020-07-09",
+            "mask": 3,
+            "no_mask": 40,
+            "city": "ie_dublin_templebar"
+        },
+        {
+            "date": "2020-07-10",
+            "mask": 29,
+            "no_mask": 75,
+            "city": "ie_dublin_templebar"
+        },
+        {
+            "date": "2020-07-11",
+            "mask": 14,
+            "no_mask": 115,
+            "city": "ie_dublin_templebar"
+        },
+        {
+            "date": "2020-07-12",
+            "mask": 5,
+            "no_mask": 68,
+            "city": "ie_dublin_templebar"
+        },
+        {
+            "date": "2020-07-13",
+            "mask": 1,
+            "no_mask": 58,
+            "city": "ie_dublin_templebar"
+        },
+        {
+            "date": "2020-07-14",
+            "mask": 1,
+            "no_mask": 33,
+            "city": "ie_dublin_templebar"
+        },
+        {
+            "date": "2020-07-15",
+            "mask": 8,
+            "no_mask": 50,
+            "city": "ie_dublin_templebar"
+        },
+        {
+            "date": "2020-07-16",
+            "mask": 11,
+            "no_mask": 48,
+            "city": "ie_dublin_templebar"
+        },
+        {
+            "date": "2020-07-17",
+            "mask": 4,
+            "no_mask": 6,
+            "city": "ie_dublin_templebar"
         }
     ]
 }

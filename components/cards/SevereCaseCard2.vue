@@ -16,9 +16,6 @@
           <li>
             {{ $t('（注）計上を開始した*月**日から作成') }}
           </li>
-          <li>
-            {{ $t('（注）ダミーデータです') }}
-          </li>
         </ul>
       </template>
     </severe-case-bar-chart>
@@ -37,7 +34,7 @@ export default {
     const graphData = []
     Data.data
       .filter(d => new Date(d.date) > new Date('2020-04-21'))
-      .filter(d => d.city === '渋谷区')
+      .filter(d => d.city === 'jp_shibuya_scramble')
       .forEach(d => {
         const date = new Date(d.date)
         const subTotal = (d.mask / (d.mask + d.no_mask)) * 100

@@ -24,6 +24,7 @@
 
 <script>
 import Data from '@/data/mask_status.json'
+//import Data from 'https://raw.githubusercontent.com/ktanizaki/covid19/development/data/mask_status.json'
 import SevereCaseBarChart from '@/components/SevereCaseBarChart.vue'
 
 export default {
@@ -56,6 +57,15 @@ export default {
     axios.setAttribute('src', 'https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js')
     document.head.appendChild(axios)
     */
+   /* ページ遷移するとデータが更新される
+   this.$nextTick(function () {
+    fetch("https://raw.githubusercontent.com/ktanizaki/covid19/development/data/mask_status.json").then(res => {
+      res.text().then(maskStatusJson => {        
+        this.Data.data = Array.from(JSON.parse(maskStatusJson).data);
+        console.log(this.Data.data);
+      });
+    });
+    });*/
   },
   methods: {
     // window:onload = function() {

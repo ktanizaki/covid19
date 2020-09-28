@@ -2,7 +2,6 @@
   <v-app class="app">
     <v-overlay v-if="loading" color="#F8F9FA" opacity="1" z-index="9999">
       <div class="loader">
-        <img src="/logo.svg" alt="東京都" />
         <scale-loader color="#00A040" />
       </div>
     </v-overlay>
@@ -113,12 +112,12 @@ export default Vue.extend({
       ],
       // Disable prettier for readability purposes
       // eslint-disable-next-line prettier/prettier
-      titleTemplate: `%s | ${this.$t('東京都')} ${this.$t('新型コロナウイルス感染症')}${this.$t('対策サイト')}`,
+      titleTemplate: `%s | ${this.$t('データ公開サイト')}`,
       meta: [
         {
           hid: 'author',
           name: 'author',
-          content: this.$tc('東京都')
+          content: this.$tc('出口研究室')
         },
         {
           hid: 'description',
@@ -129,18 +128,13 @@ export default Vue.extend({
             }) +
             ': ' +
             this.$tc(
-              '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、東京都が開設したものです。'
+              '当サイトはマスク着用率等のデータを公開するために、東京工業大学 出口研究室が開設したものです。'
             )
         },
         {
           hid: 'og:site_name',
           property: 'og:site_name',
-          content:
-            this.$t('東京都') +
-            ' ' +
-            this.$t('新型コロナウイルス感染症') +
-            ' ' +
-            this.$t('対策サイト')
+          content: this.$t('データ公開サイト') + ' '
         },
         {
           hid: 'og:url',
@@ -151,12 +145,7 @@ export default Vue.extend({
         {
           hid: 'og:title',
           property: 'og:title',
-          content:
-            this.$t('東京都') +
-            ' ' +
-            this.$t('新型コロナウイルス感染症') +
-            ' ' +
-            this.$t('対策サイト')
+          content: this.$t('データ公開サイト') + ' '
         },
         {
           hid: 'og:description',
@@ -167,7 +156,7 @@ export default Vue.extend({
             }) +
             ': ' +
             this.$tc(
-              '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、東京都が開設したものです。'
+              '当サイトはマスク着用率等のデータを公開するために、東京工業大学 出口研究室が開設したものです。'
             )
         },
         {
@@ -178,12 +167,7 @@ export default Vue.extend({
         {
           hid: 'apple-mobile-web-app-title',
           name: 'apple-mobile-web-app-title',
-          content:
-            this.$t('東京都') +
-            ' ' +
-            this.$t('新型コロナウイルス感染症') +
-            ' ' +
-            this.$t('対策サイト')
+          content: this.$t('データ公開サイト') + ' '
         },
         {
           hid: 'twitter:image',

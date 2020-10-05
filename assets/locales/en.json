@@ -485,5 +485,6 @@
     "複製・改変が許されたオープンソースライセンスで公開されている、東京都公式新型コロナウイルス対策サイトの仕組みを利用しています。": "It uses an open source licence that permits copying and redistribution, and is based on the Tokyo Metropolitan Government COVID-19 Task Force website.",
     "新型コロナウイルス感染症の拡大を防ぐために、マスク着用率の客観的なデータを示すことで人々の行動変容を促すことを目的としています。": "By conveying objective data of the mask wearing rate , this site aims to allow people to grasp the current situation and promote behavior change. ",
     "（注）目視により手動でカウント": "(Note) Manual count by visually check",
-    "（注）画像認識により自動でカウント": "(Note) Automatic count by image recognition"
+    "（注）画像認識により自動でカウント": "(Note) Automatic count by image recognition",
+    "当サイトに掲載されている情報の正確性については万全を期していますが、出口研究室は利用者が当サイトの情報を用いて行う一切の行為について責任を負うものではありません。": "Although every effort has been made to ensure the accuracy of the information posted on this site, Deguchi Laboratory will not be responsible for any actions taken by users using the information on this site."
 }

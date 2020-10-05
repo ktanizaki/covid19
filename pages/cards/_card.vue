@@ -10,7 +10,7 @@ import SevereCaseCard4 from '@/components/cards/SevereCaseCard4.vue'
 import SevereCaseCard5 from '@/components/cards/SevereCaseCard5.vue'
 import SevereCaseCard6 from '@/components/cards/SevereCaseCard6.vue'
 import SevereCaseCard7 from '@/components/cards/SevereCaseCard7.vue'
-import MonitoringStatusOverviewCard from '@/components/cards/MonitoringStatusOverviewCard.vue'
+//import MonitoringStatusOverviewCard from '@/components/cards/MonitoringStatusOverviewCard.vue'
 
 export default {
   components: {
@@ -21,7 +21,7 @@ export default {
     SevereCaseCard5,
     SevereCaseCard6,
     SevereCaseCard7,
-    MonitoringStatusOverviewCard
+    //MonitoringStatusOverviewCard
   },
   data() {
     let title, updatedAt, cardComponent
@@ -47,9 +47,9 @@ export default {
       case 'positive-status-severe-case7':
         cardComponent = 'severe-case-card7'
         break
-      case 'monitoring-status-overview':
-        cardComponent = 'monitoring-status-overview-card'
-        break
+      //case 'monitoring-status-overview':
+      //  cardComponent = 'monitoring-status-overview-card'
+      //  break
     }
 
     return {

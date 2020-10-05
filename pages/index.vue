@@ -4,21 +4,21 @@
     <cards-tabs />
     <card-row class="DataBlock">
       <!-- モニタリング指標 -->
-      <monitoring-status-overview-card />
-      <!-- モニタリング指標 マスク着用率 -->
-      <severe-case-card />
-      <!-- モニタリング指標 マスク着用率2 -->
+      <!-- <monitoring-status-overview-card /> -->
+      <!-- モニタリング指標 マスク着用率2 渋谷区 -->
       <severe-case-card2 />
-      <!-- モニタリング指標 マスク着用率3 -->
+      <!-- モニタリング指標 マスク着用率3 大阪市 -->
       <severe-case-card3 />
-      <!-- モニタリング指標 マスク着用率4 -->
+      <!-- モニタリング指標 マスク着用率4 台北 -->
       <severe-case-card4 />
-      <!-- モニタリング指標 マスク着用率5 -->
+      <!-- モニタリング指標 マスク着用率5 ヴェネチア -->
       <severe-case-card5 />
-      <!-- モニタリング指標 マスク着用率6 -->
+      <!-- モニタリング指標 マスク着用率6 ロンドン -->
       <severe-case-card6 />
-      <!-- モニタリング指標 マスク着用率7 -->
+      <!-- モニタリング指標 マスク着用率7 ダブリン -->
       <severe-case-card7 />
+      <!-- モニタリング指標 マスク着用率 多摩市 -->
+      <severe-case-card />
     </card-row>
   </div>
 </template>
@@ -34,7 +34,7 @@ import SevereCaseCard4 from '@/components/cards/SevereCaseCard4.vue'
 import SevereCaseCard5 from '@/components/cards/SevereCaseCard5.vue'
 import SevereCaseCard6 from '@/components/cards/SevereCaseCard6.vue'
 import SevereCaseCard7 from '@/components/cards/SevereCaseCard7.vue'
-import MonitoringStatusOverviewCard from '@/components/cards/MonitoringStatusOverviewCard.vue'
+//import MonitoringStatusOverviewCard from '@/components/cards/MonitoringStatusOverviewCard.vue'
 
 export default Vue.extend({
   components: {
@@ -46,8 +46,8 @@ export default Vue.extend({
     SevereCaseCard4,
     SevereCaseCard5,
     SevereCaseCard6,
-    SevereCaseCard7,
-    MonitoringStatusOverviewCard
+    SevereCaseCard7
+    //MonitoringStatusOverviewCard
   }
 })
 </script>

@@ -9,12 +9,9 @@
       unit="%"
     >
       <template v-slot:additionalDescription>
-        <div class="my-1">
-          <v-btn small @click="updateData()">Update</v-btn>
-        </div>
         <ul>
           <li>
-            {{ $t('（注）計上を開始した4月22日から作成') }}
+            {{ $t('（注）目視により手動でカウント') }}
           </li>
         </ul>
       </template>
@@ -24,7 +21,6 @@
 
 <script>
 import Data from '@/data/mask_status.json'
-//import Data from 'https://raw.githubusercontent.com/ktanizaki/covid19/development/data/mask_status.json'
 import SevereCaseBarChart from '@/components/SevereCaseBarChart.vue'
 
 export default {
@@ -49,52 +45,6 @@ export default {
     return {
       Data,
       graphData
-    }
-  },
-  mounted() {
-    /*
-    let axios = document.createElement('script')
-    axios.setAttribute('src', 'https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js')
-    document.head.appendChild(axios)
-    */
-   /* ページ遷移するとデータが更新される
-   this.$nextTick(function () {
-    fetch("https://raw.githubusercontent.com/ktanizaki/covid19/development/data/mask_status.json").then(res => {
-      res.text().then(maskStatusJson => {        
-        this.Data.data = Array.from(JSON.parse(maskStatusJson).data);
-        console.log(this.Data.data);
-      });
-    });
-    });*/
-  },
-  methods: {
-    // window:onload = function() {
-    //  this.updateData();
-    // },
-    updateData() {
-      console.log(this.graphData)
-      /*
-      let response
-      axios.get("https://raw.githubusercontent.com/ktanizaki/covid19/development/data/mask_status.json").then(
-        response => (
-          response.data.data
-            .filter(d => new Date(d.date) > new Date('2020-06-06'))
-            .forEach(d => {
-              console.log(this.graphData.length);
-              console.log(this.graphData[this.graphData.length - 1].label);
-              const date = new Date(d.date)
-              const subTotal = (d.mask / (d.mask + d.no_mask)) * 100
-              if (!isNaN(subTotal)) {
-                this.graphData.push({
-                  label: `${date.getMonth() + 1}/${date.getDate()}`,
-                  transition: subTotal
-                })
-              }
-            })
-        )
-      )
-      console.log(this.graphData)
-      */
     }
   }
 }

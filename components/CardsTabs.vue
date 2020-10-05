@@ -21,7 +21,7 @@ export default {
     return {
       tabs: [
         { label: this.$t('モニタリング指標'), path: '/' },
-        { label: this.$t('その他 参考指標'), path: '/reference' }
+        //{ label: this.$t('その他 参考指標'), path: '/reference' } // 別タブは不要なのでコメントアウト
       ]
     }
   }

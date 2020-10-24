@@ -20,8 +20,8 @@ export default {
   data() {
     return {
       tabs: [
-        { label: this.$t('モニタリング指標'), path: '/' },
-        //{ label: this.$t('その他 参考指標'), path: '/reference' } // 別タブは不要なのでコメントアウト
+        { label: this.$t('ライブカムAI認識'), path: '/' },
+        { label: this.$t('現地目視調査'), path: '/onspot' }
       ]
     }
   }

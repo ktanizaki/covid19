@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import Data from '@/data/mask_status.json'
+import Data from '@/data/mask_status_auto.json'
 import SevereCaseBarChart from '@/components/SevereCaseBarChart.vue'
 
 export default {

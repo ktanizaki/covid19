@@ -17,8 +17,6 @@
       <severe-case-card6 />
       <!-- モニタリング指標 マスク着用率7 ダブリン -->
       <severe-case-card7 />
-      <!-- モニタリング指標 マスク着用率 多摩市 -->
-      <severe-case-card />
     </card-row>
   </div>
 </template>
@@ -27,7 +25,6 @@
 import Vue from 'vue'
 import CardsTabs from '@/components/CardsTabs.vue'
 import CardRow from '@/components/cards/CardRow.vue'
-import SevereCaseCard from '@/components/cards/SevereCaseCard.vue'
 import SevereCaseCard2 from '@/components/cards/SevereCaseCard2.vue'
 import SevereCaseCard3 from '@/components/cards/SevereCaseCard3.vue'
 import SevereCaseCard4 from '@/components/cards/SevereCaseCard4.vue'
@@ -40,7 +37,6 @@ export default Vue.extend({
   components: {
     CardsTabs,
     CardRow,
-    SevereCaseCard,
     SevereCaseCard2,
     SevereCaseCard3,
     SevereCaseCard4,

@@ -1,5 +1,5 @@
 {
-    "date": "2020\/11\/30 8:30",
+    "date": "2020\/12\/08 8:30",
     "data": [
 		{"date": "2020-06-13", "mask": 23, "no_mask": 129, "city": "ie_dublin_templebar"},
 		{"date": "2020-06-14", "mask": 2, "no_mask": 70, "city": "ie_dublin_templebar"},
@@ -83,6 +83,8 @@
 		{"date": "2020-11-27", "mask": 3, "no_mask": 77, "city": "ie_dublin_templebar"},
 		{"date": "2020-11-28", "mask": 23, "no_mask": 172, "city": "ie_dublin_templebar"},
 		{"date": "2020-11-29", "mask": 40, "no_mask": 113, "city": "ie_dublin_templebar"},
+		{"date": "2020-11-30", "mask": 2, "no_mask": 20, "city": "ie_dublin_templebar"},
+		{"date": "2020-12-07", "mask": 6, "no_mask": 19, "city": "ie_dublin_templebar"},
 		{"date": "2020-06-13", "mask": 6, "no_mask": 33, "city": "it_venice_rialto_bridge"},
 		{"date": "2020-06-14", "mask": 1, "no_mask": 41, "city": "it_venice_rialto_bridge"},
 		{"date": "2020-06-15", "mask": 2, "no_mask": 5, "city": "it_venice_rialto_bridge"},
@@ -165,6 +167,8 @@
 		{"date": "2020-11-27", "mask": 13, "no_mask": 1, "city": "it_venice_rialto_bridge"},
 		{"date": "2020-11-28", "mask": 5, "no_mask": 3, "city": "it_venice_rialto_bridge"},
 		{"date": "2020-11-29", "mask": 19, "no_mask": 10, "city": "it_venice_rialto_bridge"},
+		{"date": "2020-11-30", "mask": 5, "no_mask": 6, "city": "it_venice_rialto_bridge"},
+		{"date": "2020-12-07", "mask": 2, "no_mask": 2, "city": "it_venice_rialto_bridge"},
 		{"date": "2020-06-13", "mask": 6, "no_mask": 11, "city": "jp_dotonbori_donki"},
 		{"date": "2020-06-14", "mask": 13, "no_mask": 29, "city": "jp_dotonbori_donki"},
 		{"date": "2020-06-15", "mask": 15, "no_mask": 21, "city": "jp_dotonbori_donki"},
@@ -250,6 +254,8 @@
 		{"date": "2020-11-27", "mask": 20, "no_mask": 9, "city": "jp_dotonbori_donki"},
 		{"date": "2020-11-28", "mask": 31, "no_mask": 13, "city": "jp_dotonbori_donki"},
 		{"date": "2020-11-29", "mask": 35, "no_mask": 12, "city": "jp_dotonbori_donki"},
+		{"date": "2020-11-30", "mask": 22, "no_mask": 13, "city": "jp_dotonbori_donki"},
+		{"date": "2020-12-07", "mask": 14, "no_mask": 10, "city": "jp_dotonbori_donki"},
 		{"date": "2020-06-12", "mask": 17, "no_mask": 7, "city": "jp_shibuya_scramble"},
 		{"date": "2020-06-13", "mask": 5, "no_mask": 2, "city": "jp_shibuya_scramble"},
 		{"date": "2020-09-24", "mask": 22, "no_mask": 13, "city": "jp_shibuya_scramble"},
@@ -319,6 +325,8 @@
 		{"date": "2020-11-27", "mask": 0, "no_mask": 0, "city": "jp_shibuya_scramble"},
 		{"date": "2020-11-28", "mask": 0, "no_mask": 0, "city": "jp_shibuya_scramble"},
 		{"date": "2020-11-29", "mask": 0, "no_mask": 0, "city": "jp_shibuya_scramble"},
+		{"date": "2020-11-30", "mask": 14, "no_mask": 7, "city": "jp_shibuya_scramble"},
+		{"date": "2020-12-07", "mask": 19, "no_mask": 7, "city": "jp_shibuya_scramble"},
 		{"date": "2020-07-10", "mask": 14, "no_mask": 205, "city": "tw_taipei_daxi"},
 		{"date": "2020-07-11", "mask": 72, "no_mask": 835, "city": "tw_taipei_daxi"},
 		{"date": "2020-07-12", "mask": 71, "no_mask": 797, "city": "tw_taipei_daxi"},
@@ -398,6 +406,8 @@
 		{"date": "2020-11-27", "mask": 15, "no_mask": 101, "city": "tw_taipei_daxi"},
 		{"date": "2020-11-28", "mask": 70, "no_mask": 273, "city": "tw_taipei_daxi"},
 		{"date": "2020-11-29", "mask": 82, "no_mask": 271, "city": "tw_taipei_daxi"},
+		{"date": "2020-11-30", "mask": 18, "no_mask": 105, "city": "tw_taipei_daxi"},
+		{"date": "2020-12-07", "mask": 17, "no_mask": 74, "city": "tw_taipei_daxi"},
 		{"date": "2020-06-13", "mask": 9, "no_mask": 73, "city": "uk_abbey_road"},
 		{"date": "2020-06-14", "mask": 2, "no_mask": 45, "city": "uk_abbey_road"},
 		{"date": "2020-06-15", "mask": 2, "no_mask": 48, "city": "uk_abbey_road"},
@@ -479,6 +489,8 @@
 		{"date": "2020-11-26", "mask": 11, "no_mask": 27, "city": "uk_abbey_road"},
 		{"date": "2020-11-27", "mask": 6, "no_mask": 27, "city": "uk_abbey_road"},
 		{"date": "2020-11-28", "mask": 4, "no_mask": 43, "city": "uk_abbey_road"},
-		{"date": "2020-11-29", "mask": 3, "no_mask": 38, "city": "uk_abbey_road"}
+		{"date": "2020-11-29", "mask": 3, "no_mask": 38, "city": "uk_abbey_road"},
+		{"date": "2020-11-30", "mask": 4, "no_mask": 31, "city": "uk_abbey_road"},
+		{"date": "2020-12-07", "mask": 5, "no_mask": 12, "city": "uk_abbey_road"}
     ]
 }
